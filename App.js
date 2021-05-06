@@ -40,6 +40,10 @@ const YourApp = () => {
                       >
             <Text style={styles.buttonText}>Register</Text>
           </Pressable>
+          <View style={{flexDirection:'row',justifyContent:"center"}}>
+          <Text style={{color:"rgb(81,81,81)",fontSize:18}}>Already a User? </Text>
+          <Text style={{color:"#00aaff",fontSize:18}}>Sign in</Text>
+          </View>
         </View>
       </View>
     </ScrollView>
@@ -64,7 +68,7 @@ const YourApp = () => {
               borderRadius:50 ,
               fontSize:18,
               paddingStart:20,
-              marginBottom:40,
+              marginBottom:10,
               height:50,
               display:'flex',
               justifyContent:"center",
